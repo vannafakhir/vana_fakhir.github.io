@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+  </head>
+  <body>
+
+    <header>
+      <img src="./img/images.png" alt="website logo" />
+      <h1>Vana Fakhir Muhammad</h1>
+    </header>
+
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./blog.html">Blog</a>
+      <a href="./schedule.html">Schedule</a>
+      <ul>
+        <p>Layout Design</p>
+        <li><a href="./layout/float.html">Float Layout with Side nav</a></li>
+        <li><a href="./layout/flex.html">Flexbox Layout with Side nav</a></li>
+        <li><a href="./layout/grid.html">Blog Grid View</a></li>
+      </ul>
+      <a href="./signup.html">Signup</a>
+      <a href="./signin.html">Signin</a>
+    </nav>
+
+    <main>
+      <h2>Signup Form</h2>
+      <form>
+        <label for="Username">Username</label><br />
+        <input type="text" name="username" placeholder="Username" />
+        <br />
+        <label for="FullName">Full Name</label><br />
+        <input type="text" name="fullName" placeholder="Full Name" />
+        <br />
+        <label for="Email">Email</label><br />
+        <input type="email" name="email" placeholder="domain@example.com" />
+        <br />
+        <label for="Tel">Telephone</label><br />
+        <input type="tel" name="tel" placeholder="00964 000 000 00 00" />
+        <br />
+        <label for="Pass">Password</label><br />
+        <input type="password" name="password" placeholder="Password" />
+        <br />
+        <label for="DateOfBirth">Date of Birth</label><br />
+        <input type="date" name="dateOfBirth" />
+        <br />
+        <label for="ProfileColor">Profile Color</label><br />
+        <input type="color" name="profileColor" />
+        <br />
+        <fieldset>
+          <legend>Marital status</legend>
+          <input type="radio" name="maritalStatus"/>Single <br />
+          <input type="radio" name="maritalStatus"/>Married <br />
+          <input type="radio" name="maritalStatus" />It is private
+          <br />
+        </fieldset>
+        <br />
+        <label for="NoOfChildren">No. of Children</label><br />
+        <select name="noOfChildren">
+          <option selected>None</option>
+          <option>One</option>
+          <option>Two</option>
+          <option>Three</option>
+          <option>Four</option>
+          <option>Five</option>
+          <option>More</option>
+        </select>
+        <br/>
+        <label for="degrees">Choose your Degrees</label>
+        <br/>
+        <select multiple size="4" name="degrees">
+          <option>Diploma</option>
+          <option>Bachelor of Science (BSc)</option>
+          <option>Bachelore of Arts (BA)</option>
+          <option>High Diploma</option>
+          <option>Master of Science (MSc)</option>
+          <option>Master of Arts (MA)</option>
+        </select>
+        <br/>
+        <label>About Yourself</label>
+        <br/>
+        <textarea cols="30" rows="4" placeholder="About Yourself"></textarea>
+        <br/>
+        <label>Upload your CV</label><br />
+        <input type="file" name="cv" />
+        <br/>
+        <fieldset>
+          <legend>Gender</legend>
+          <input type="radio" name="gender"/>Male <br />
+          <input type="radio" name="gender"/>Female</fieldset>
+        <br/>
+        <fieldset>
+          <legend>Agreements</legend>
+          <p>Please read the terms and agreements</p>
+          <input type="checkbox" name="agrrements" />I have read all the terms
+          <br/>
+          <input type="checkbox" name="agrrements" />Yes, I'm agree</fieldset>
+        <br/>
+        <input type="submit" value="Signup"/>
+        <input type="submit" value="Reset"/>
+      </form>
+    </main>
+
+    <footer>
+      <div>
+        <h2>Sitemap</h2>
+        <ol>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Login</a></li>
+        </ol>
+      </div>
+      <div>
+        <h2>Terms and Quick Links</h2>
+        <ol>
+          <li><a href="#">Term of usage </a></li>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ol>
+      </div>
+      <div>
+        <h2>Address and Contact</h2>
+        <address>
+          City, Government, Country 
+          Phone:
+          <a href="tel:0964 000 000 0000">0964 000 000 0000</a> 
+          Email:
+          <a href="mailto:example@domain.com">example@domain.com</a>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
